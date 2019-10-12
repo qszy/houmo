@@ -1,0 +1,38 @@
+﻿{
+  "name": "58",
+  "version": 100,
+  "category": 1, 
+  "url": "http://www.5858xs.com",
+  "charset": "gbk",
+
+  "metadata": {
+    "name": ["td:nth-child(1) > a"],
+    "author": ["td:nth-child(3)"],  
+
+    "cover": ["div#info_content > img@attr->src"],  
+    "summary": ["div#info_content"],  
+    "category": ["span.s1"], 
+    "status": [], 
+    "update": [], 
+    "lastChapter": ["td:nth-child(2) > a"], 
+
+    "link": ["td:nth-child(1) > a@attr->href"],
+    "catalog": ["div.info_c > ul > li:nth-child(1) > a@attr->href"]  
+  },
+  "catalog": {
+    "list": "table.t > tbody > tr > td", 
+    "orderBy": 0, 
+    "chapter": {
+      "name": "a",  
+      "link": "a@attr->href" 
+    }
+  },
+  "content": {
+    "text": "div#content" 
+  },
+
+  "search": {
+    "link": "http://www.5858xs.com/modules/article/search.php?searchtype=articlename&searchkey=${key}&Submit=+%CB%D1+%CB%F7+",  
+    "list": "table.grid > tbody > tr"  
+  }
+}

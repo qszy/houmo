@@ -1,0 +1,43 @@
+{ 
+
+"name": "ybdex", 
+
+"version": 100, 
+
+"category": 4, 
+
+"url": "https://gitee.com", 
+
+"charset": "gb2312", 
+
+"metadata": { 
+
+"name": ["a"], 
+
+"summary": ["a"], 
+
+"link": ["a@attr->href"] 
+
+}, 
+
+}, 
+
+"content": { 
+
+"text": "div.panel-body" 
+
+}, 
+
+"rank": { 
+
+"link": [{ 
+
+"name": "书单", 
+
+"link": "https://gitee.com/zhangxiaowan/thick_ink_book_source/raw/master/index2.html" 
+
+}], 
+
+"list": "div.s1 > li" 
+
+}

@@ -1,0 +1,34 @@
+{
+  "name": "教父中文",
+  "version": 100,
+  "category": 1, 
+  "url": "https://www.jfzw.com",
+  "charset": "gbk",
+  "metadata": {
+    "name": ["span.s2 > a"], 
+    "author": ["span.s4"], 
+    "cover": ["div#fmimg > img@attr->src"], 
+    "summary": ["div#intro"],  
+    "category": ["span.s1"], 
+    "status": [], 
+    "update": [], 
+    "lastChapter": ["span.s3 > a"], 
+    "link": ["span.s2 > a@attr->href"], 
+    "catalog": []  
+  },
+  "catalog": {
+    "list": "div#list > dl > dd", 
+    "orderBy": 0, 
+    "chapter": {
+      "name": "a", 
+      "link": "a@attr->href" 
+    }
+  },
+  "content": {
+    "text": "div#content" 
+  },
+  "search": {
+    "link": "https://www.jfzw.com/novel.php?action=search&searchkey=${key}",  
+    "list": "div.novelslist > ul > li"  
+  }
+}

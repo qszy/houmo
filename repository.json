@@ -1,0 +1,223 @@
+{
+"name": "张小晚",
+"summary": "谈对象影响学习。学习最重要。—— 培根",
+"list": [  
+        {
+      "name": "飘天中文网[搜索间隔30s]",
+      "url": "https://www.piaotianzw.com",
+      "category": 1,
+      "rank": 4,
+      "auth": false,
+      "version": 102
+    },
+
+    {
+      "name": "豆瓣书单",
+      "url": "https://www.douban.com",
+      "category": 4,
+      "rank": 46,
+      "auth": false,
+      "version": 100
+    },
+         {
+      "name": "昕薇书单",
+      "url": "http://www.ixinwei.com",
+      "category": 4,
+      "rank": 6,
+      "auth": false,
+      "version": 100
+    },
+     {
+      "name": "排行榜书单",
+      "url": "https://www.phb123.com",
+      "category": 4,
+      "rank": 7,
+      "auth": false,
+      "version": 100
+    },
+    {
+      "name": "36书房",
+      "url": "https://www.36sfw.com",
+      "category": 1,
+      "rank": 7,
+      "auth": false,
+      "version": 100
+    }, 
+       {
+      "name": "读趣网",
+      "url": "http://www.du7.org",
+      "category": 1,
+      "rank": 9,
+      "auth": false,
+      "version": 100
+    },
+     {
+      "name": "乐文小说网",
+      "url": "https://www.lewenxiaoshuo.com",
+      "category": 1,
+      "rank": 0,
+      "auth": false,
+      "version": 100
+    },
+      {
+      "name": "58",
+      "url": "http://www.5858xs.com",
+      "category": 1,
+      "rank": 0,
+      "auth": false,
+      "version": 100
+    }, 
+    {   
+      "name": "69书吧",
+      "url": "https://www.69shuba.cc",
+      "category": 1,
+      "rank": 0,
+      "auth": false,
+      "version": 100
+    }, 
+     {
+      "name": "94",
+      "url": "http://www.94xsw.info",
+      "category": 1,
+      "rank": 0,
+      "auth": false,
+      "version": 100
+    }, 
+    {
+      "name": "手牵手",
+      "url": "https://www.sqsxs.com",
+      "category": 1,
+      "rank": 0,
+      "auth": false,
+      "version": 100
+    },
+        {
+      "name": "无限",
+      "url": "https://www.555x.org",
+      "category": 1,
+      "rank": 0,
+      "auth": false,
+      "version": 100
+    },
+    {
+      "name": "灵域",
+      "url": "https://m.lingyutxt.com",
+      "category": 1,
+      "rank": 0,
+      "auth":false,
+      "version": 100
+    },
+       {
+      "name": "教父中文",
+      "url": "https://www.jfzw.com",
+      "category": 1,
+      "rank": 0,
+      "auth": false,
+      "version": 100
+    }, 
+        {
+      "name": "月色寒",
+      "url": "https://www.yuesehan.com",
+      "category": 1,
+      "rank": 0,
+      "auth": false,
+      "version": 100
+    }, 
+      {
+      "name": "悦读吧",
+      "url": "http://www.yued8.cn",
+      "category": 1,
+      "rank": 0,
+      "auth": false,
+      "version": 100
+    }, 
+     {
+      "name": "小说2016",
+      "url": "http://www.yued8.cn",
+      "category": 1,
+      "rank": 0,
+      "auth": false,
+      "version": 100
+    }, 
+     {
+      "name": "小说2016",
+      "url": "https://www.xiaoshuo2016.com",
+      "category": 1,
+      "rank": 0,
+      "auth": false,
+      "version": 100
+    }, 
+    {
+      "name": "汤圆创作",
+      "url": "http://www.itangyuan.com",
+      "category": 2,
+      "rank": 0,
+      "auth": false,
+      "version": 100
+    }, 
+     {
+      "name": "天天中文",
+      "url": "https://www.ttzw.com",
+      "category": 1,
+      "rank": 0,
+      "auth": false,
+      "version": 100
+    },
+    {
+      "name": "笔下文学",
+      "url": "https://sou.xanbhx.com",
+      "category": 1,
+      "rank": 0,
+      "auth": false,
+      "version": 100
+    },     
+  {
+      "name": "雅尔文",
+      "url": "https://www.yawen365.com",
+      "category": 1,
+      "rank": 0,
+      "auth": false,
+      "version": 100
+    },  
+    {
+      "name": "官术网",
+      "url": "https://www.biyuwu.cc",
+      "category": 1,
+      "rank": 0,
+      "auth": false,
+      "version": 100
+    },   
+    {
+      "name": "看书啦",
+      "url": "https://www.kanshula.com",
+      "category": 1,
+      "rank": 0,
+      "auth":false,
+      "version": 100
+    }, 
+      {
+      "name": "乐文",
+      "url": "https://www.lewenn.com",
+      "category": 1,
+      "rank": 0,
+      "auth":false,
+      "version": 100
+    }, 
+    {
+      "name": "恋上你看书网",
+      "url": "http://www.630ksw.com",
+      "category": 1,
+      "rank": 0,
+      "auth":false,
+      "version": 100
+    }, 
+     {
+      "name": "闪舞",
+      "url": "https://www.35xs.com",
+      "category": 1,
+      "rank": 0,
+      "auth":false,
+      "version": 100
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "汤圆创作",
+  "version": 100,
+  "category": 0, 
+  "url": "http://www.itangyuan.com",
+  "charset": "utf-8",
+
+  "metadata": {
+    "name": ["div.data > p.bname > a"],
+    "author": ["div.data > p.author > a"], 
+    "cover": ["a > img@attr->src"], 
+    "summary": ["div.data > p:nth-child(3)"], 
+    "category": ["div.data > div.info > p.tags"],
+    "status": [], 
+    "update": [], 
+    "lastChapter": ["p.last > a"], 
+
+    "link": ["div.data > p.bname > a@attr->href"], 
+    "catalog": ["div.head > a@attr->href"] 
+  },
+  "catalog": {
+    "list": "div.catalog > ul > li",
+    "orderBy": 0, 
+    "chapter": {
+      "name": "a",  
+      "link": "a@attr->href"   
+    }
+  },
+  "content": {
+    "text": "div.section-main-con" 
+  },
+
+  "search": {
+    "link": "http://www.itangyuan.com/search/book/${key}.html", 
+    "list": "div.book-list > div" 
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "侠客网",
+  "version": 100,
+  "category": 4,
+  "url": "http://xkzzz.com",
+  "charset": "utf-8",
+  "metadata": {
+    "name": [".info > h3 > a"],
+    "author": [],
+    "cover": [".img > a > img@attr->src"],
+    "summary": [".info > p"],
+    "category": [],
+    "status": ["i.fa-clock-o"],
+    "link": [".info > h3 > a@attr->href"]
+  },
+  "catalog": {
+    "list": ".post_t",
+    "orderBy": 0,
+    "chapter": {
+      "name": "h1 > a",
+      "link": "h1 > a@attr->href"
+    }
+  },
+  "content": {
+    "text": ".article_content"
+  },
+  "rank": {
+    "link": [
+
+        { "name": "小说", "link": "http://xkzzz.com/category/35/" }
+    ],
+    "list": "#infinitescroll > .infinitescroll_li",
+    "page": { 
+      "index": 1,
+      "limit": 1,
+      "begin": "1",
+      "next": "{index}"
+    }}
+}

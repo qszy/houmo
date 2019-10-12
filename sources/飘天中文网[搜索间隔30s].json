@@ -1,0 +1,60 @@
+{
+  "name": "飘天中文网[搜索间隔30s]",
+  "version": 100,
+  "category": 0,
+  "url": "https://www.piaotianzw.com",
+  "charset": "gbk",
+  "metadata": {
+    "name": ["h2 > a"],
+    "author": ["span"],
+    "cover": [".pic > a > img@attr->src"],
+    "summary": [".intro"],
+    "category": [],
+    "status": [],
+    "update": [],
+    "lastChapter": [".sys > li > a",".info > .sys > a"],
+    "link": ["a@attr->href"],
+    "catalog": ["span.btopt > a@attr->href"]
+  },
+  "catalog": {
+    "list": "tbody > tr > td.dccss",
+    "orderBy": 0,
+    "chapter": {
+      "name": "a",
+      "link": "a@attr->href"
+    }
+  },
+  "content": {
+    "text": "#content"
+  },
+  "search": {
+    "link": "https://www.piaotianzw.com/modules/article/search.php@post->searchkey=${key}",
+    "list": "#alistbox"
+  },
+  "rank": {
+    "link": [
+      {
+        "name": "玄幻魔法",
+        "link": "https://www.piaotianzw.com/fenlei/1"
+      },
+      {
+        "name": "言情小说",
+        "link": "https://www.piaotianzw.com/fenlei/2"
+      },
+      {
+        "name": "仙侠修真",
+        "link": "https://www.piaotianzw.com/fenlei/3"
+      },
+      {
+        "name": "都市小说",
+        "link": "https://www.piaotianzw.com/fenlei/4"
+      }
+    ],
+    "page": {
+      "index": 1,
+      "limit": 1273,
+      "begin": "",
+      "next": "_${index}.html"
+    }
+  }
+}

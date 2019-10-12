@@ -1,0 +1,73 @@
+{
+  "name": "快读书单",
+  "version": 100,
+  "category": 4,
+  "url": "https://m.kuaidu.com.cn",
+  "charset": "utf-8",
+  "metadata": {
+    "name": ["a > p","a:nth-child(2) > p"],
+    "author": [],
+    "cover": ["a > img@attr->src"],
+    "summary": ["a"],
+    "category": [],
+    "status": [],
+    "link": ["a@attr->href"]
+  },
+  "catalog": {
+    "list": "head",
+    "orderBy": 0,
+    "chapter": {
+      "name": "title",
+      "link": "link[rel=miphtml]@attr->href"
+    }
+  },
+  "content": {
+    "text": ".mycontext",
+    "page":{ 
+    "next": "a[data-type=mip]@attr->href"
+    }  
+  },
+  "rank": {
+    "link": [
+         {
+        "name": "好书推荐",
+        "link": "https://m.kuaidu.com.cn/haoshu/list_755_"
+      },
+        {
+        "name": "影评",
+        "link": "https://m.kuaidu.com.cn/yingping/moves/list_274_"
+      },   
+        {
+        "name": "书评",
+        "link": "https://m.kuaidu.com.cn/yingping/shuping/list_273_"
+      },   
+        {
+        "name": "段子",
+        "link": "https://m.kuaidu.com.cn/gaoxiao/duanzi/list_311_"
+      },   
+        {
+        "name": "笑话",
+        "link": "https://m.kuaidu.com.cn/gaoxiao/xiaohua/list_312_"
+      },   
+        {
+        "name": "搞笑图片",
+        "link": "https://m.kuaidu.com.cn/gaoxiao/tupian/list_313_"
+      },   
+        {
+        "name": "电脑常识",
+        "link": "https://m.kuaidu.com.cn/changshi/diannao/list_250_"
+      },   
+        {
+        "name": "处世之道",
+        "link": "https://m.kuaidu.com.cn/changshi/chushi/list_130_"
+      }
+    ],
+    "list": "ul.g_list1 > li",
+    "page": {
+      "index": 1,
+      "limit": 50,
+      "begin": "1.html",
+      "next": "${index}.html"
+    }
+  }
+}

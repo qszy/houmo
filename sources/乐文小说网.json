@@ -1,0 +1,38 @@
+{
+  "name": "乐文小说网",
+  "version": 100,
+  "category": 1, 
+  "url": "https://www.lewenxiaoshuo.com",
+  "charset": "gbk",
+
+  "metadata": {
+    "name": ["div.isfull > span.waps_name > a"],
+    "author": ["div.isfull > span.waps_sort"], 
+
+    "cover": ["div.cover > img@attr->src"], 
+    "summary": ["p.intro"], 
+    "category": ["div.fenlei > a"], 
+    "status": ["div.isfull > span.waps_full_1"], 
+    "update": [], 
+    "lastChapter": ["div.genxin > a"], 
+
+    "link": ["div.isfull > span.waps_name > a@attr->href"],
+    "catalog": []  
+  },
+  "catalog": {
+    "list": "ul#readlist > li",
+    "orderBy": 0, 
+    "chapter": {
+      "name": "a",
+      "link": "a@attr->href"
+    }
+  },
+  "content": {
+    "text": "div#content"
+  },
+
+  "search": {
+    "link": "https://m.lewenxiaoshuo.com/novel.php?action=search&searchkey=${key}&searchtype=articlename",  
+    "list": "div.waps_r > div.waps_one"  
+  }
+}

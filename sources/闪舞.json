@@ -1,0 +1,34 @@
+{
+  "name": "闪舞",
+  "version": 100,
+  "category": 1,  
+  "url": "https://www.35xs.com",
+  "charset": "utf-8",
+  "metadata": {
+    "name": ["td:nth-child(1) > a"], 
+    "author": ["td:nth-child(2)"],
+    "cover": ["div.bookdetail_content > img@attr->src"],  
+    "summary": ["div.booksum"], 
+    "category": [],
+    "status": [],  
+    "update": [], 
+    "lastChapter": ["td:nth-child(3) > a"], 
+    "link": ["td:nth-child(1) > a@attr->href"],
+    "catalog": [] 
+  },
+  "catalog": {
+    "list": "ul.mulu_list > li", 
+    "orderBy": 0, 
+    "chapter": {
+      "name": "a", 
+      "link": "a@attr->href" 
+    }
+  },
+  "content": {
+    "text": "div.bookreadercontent"
+  },
+  "search": {
+    "link": "https://www.35xs.com/book/search?keyword=${key}", 
+    "list": "table > tbody > tr"   
+  }
+}

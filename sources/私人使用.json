@@ -1,0 +1,44 @@
+{
+  "name": "私人使用",
+  "version": 100,
+  "category": 4,
+  "url": "zxw",
+  "charset": "utf-8",
+  "metadata": {
+    "name": ["a"],
+    "author": [],
+    "cover": ["img@attr->src"],
+    "summary": ["h4"],
+    "category": ["h4"],
+    "status": [],
+    "link": ["a@attr->href"]
+  },
+  "catalog": {
+    "list": ".dirItem02",
+    "orderBy": 0,
+    "booklet": {
+      "name": "h5",
+      "list": ".list_01 li"
+    },
+    "chapter": {
+      "name": "a",
+      "link": "a@attr->href"
+    }
+  },
+  "content": {
+    "text": ".txt~:not(div)"
+  },
+  "rank": {
+    "link": [
+        {
+        "name": "书单",
+        "link": "https://gitee.com/zhangxiaowan/HTML/raw/master/%E4%B9%A6%E5%8D%95.htm"
+      },
+        {
+        "name": "新闻",
+        "link": "https://gitee.com/zhangxiaowan/HTML/raw/master/%E6%96%B0%E9%97%BB.htm"
+      }
+    ],
+    "list": "body li"
+  }
+}

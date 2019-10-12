@@ -1,0 +1,37 @@
+{
+  "name": "无限",
+  "version": 100,
+  "category": 1, 
+  "url": "https://www.555x.org",
+  "charset": "utf-8",
+  "metadata": {
+    "name": ["li.qq_g > a"], 
+    "author": ["li.qq_r"],  
+    "cover": ["div.neit > img@attr->src"],
+    "summary": ["div.zhangjie"], 
+    "category": ["li.qq_z"], 
+    "status": [],  
+    "update": ["li.qq_l"],  
+    "lastChapter": [], 
+    "link": ["li.qq_g > a@attr->href"], 
+    "catalog": ["div.downbox > a:nth-child(2)@attr->href"] 
+  },
+  "catalog": {
+    "list": "div.read_list > a",
+    "orderBy": 0,  
+    "chapter": {
+      "name": "a", 
+      "link": "a@attr->href" 
+    }
+ },
+  "content": {
+    "text": "div#view_content_txt",
+    "page": {
+    "next": "a#nextPage@attr->href"
+    }
+  },
+  "search": {
+    "link": "https://www.555x.org/search/result/searchtype/complex/searchkey/${key}/page/searchPage",  
+    "list": "div.xiashu > ul"  
+  }
+}

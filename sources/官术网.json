@@ -1,0 +1,37 @@
+{
+  "name": "官术网",
+  "version": 100,
+  "category": 1,
+  "url": "https://www.biyuwu.cc",
+  "charset": "utf-8",
+
+  "metadata": {
+    "name": ["div.result-game-item-detail > h3 > a"], 
+    "author": ["div.result-game-item-detail > div > p:nth-child(1)"], 
+    "cover": ["div:nth-child(1) > a > img@attr->src"], 
+    "summary": ["p.result-game-item-desc"], 
+    "category": ["div.result-game-item-detail > div > p:nth-child(2)"],
+    "status": [],  
+    "update": ["div.result-game-item-detail > div > p:nth-child(3)"],
+    "lastChapter": ["div.result-game-item-detail > div > p:nth-child(4)"], 
+
+    "link": ["div.result-game-item-detail > h3 > a@attr->href"],
+    "catalog": []  
+  },
+  "catalog": {
+    "list": "div#list > dl > dd", 
+    "orderBy": 2,  
+    "chapter": {
+      "name": "a", 
+      "link": "a@attr->href"  
+    }
+  },
+  "content": {
+    "text": "body" 
+  },
+
+  "search": {
+    "link": "https://www.biyuwu.cc/search.php?keyword=${key}", 
+    "list": "div.result-list > div" 
+  }
+}

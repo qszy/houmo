@@ -1,0 +1,59 @@
+{
+  "name": "广知网",
+  "version": 100,
+  "category": 4,
+  "url": "https://www.gz2010.cn",
+  "charset": "utf-8",
+  "metadata": {
+    "name": [".text > a"],
+    "author": [],
+    "cover": [".imgbox > a > img@attr->src"],
+    "summary": [".text_cont"],
+    "category": [],
+    "status": [".time"],
+    "link": [".text > a@attr->href"]
+  },
+  "catalog": {
+    "list": "html",
+    "orderBy": 0,
+    "chapter": {
+      "name": ".title",
+      "link": ".phone > a@attr->href"
+    }
+  },
+  "content": {
+    "text": ".content"
+  },
+  "rank": {
+    "link": [
+        {
+        "name": "小说",
+        "link": "https://www.gz2010.cn/news/xiaoshuopaixing/xiaoshuo_"
+      },
+      {
+  "name": "综合排行",
+ "link": "https://www.gz2010.cn/list/paihangbang/index_"
+ },
+      {
+  "name": "国内旅游",
+ "link": "https://www.gz2010.cn/lvyou/guonei_"
+ },
+{
+  "name": "比赛规则",
+ "link": "https://www.gz2010.cn/a/ziliao/guize/index_"
+ },
+{
+  "name": "写作技巧",
+ "link": "https://www.gz2010.cn/a/ziliao/xiezuo/index_"
+ }
+
+    ],
+    "list": ".left > ul > li",
+    "page": {
+      "index": 1,
+      "limit": 29,
+      "begin": "1.html",
+      "next": "{index}.html"
+    }
+  }
+}

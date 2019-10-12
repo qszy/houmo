@@ -1,0 +1,38 @@
+{
+  "name": "恋上你看书网",
+  "version": 100,
+  "category": 1, 
+  "url": "http://www.630ksw.com",
+  "charset": "utf-8",
+
+  "metadata": {
+    "name": ["span.s2 > a"],
+    "author": ["span.s4"], 
+
+    "cover": ["div#fmimg > img@attr->src"], 
+    "summary": ["div#maininfo > div#intro"], 
+    "category": ["span.s1"],  
+    "status": [],
+    "update": [], 
+    "lastChapter": ["span.s3 > a"], 
+
+    "link": ["span.s2 > a@attr->href"],
+    "catalog": []
+  },
+  "catalog": {
+    "list": "div#list > dl > dd", 
+    "orderBy": 0,  
+    "chapter": {
+      "name": "a",
+      "link": "a@attr->href"
+    }
+  },
+  "content": {
+    "text": "div#content"  
+  },
+
+  "search": {
+    "link": "http://www.630ksw.com/SearchBook.aspx?keyword=${key}", 
+    "list": "div.novelslist2 > ul > li" 
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "name": "昕薇书单",
+  "version": 100,
+  "category": 4,
+  "url": "http://www.ixinwei.com",
+  "charset": "utf-8",
+  "metadata": {
+    "name": ["tr:nth-child(1) > td:nth-child(2) > a"],
+    "author": [],
+    "cover": ["tr:nth-child(1) > td:nth-child(1) > a > img@attr->src"],
+    "summary": ["tr:nth-child(3) > td"],
+    "category": [],
+    "status": ["tr:nth-child(2) > td"],
+    "link": [" tr:nth-child(1) > td:nth-child(2) > a@attr->href"]
+  },
+  "catalog": {
+    "list": ".image310 > ul > a",
+    "orderBy": 0,
+    "chapter": {
+      "name": "a",
+      "link": "a@attr->href"
+    }
+  },
+  "content": {
+    "text": ".news",
+ "page":{ 
+ "next": "a.dev_nexpage@attr->href"
+    }  
+  },
+  "rank": {
+    "link": [
+        {
+        "name": "书籍",
+        "link": "http://www.ixinwei.com/news.aspx?typeid2=30"
+      },   
+     {
+        "name": "影视",
+        "link": "http://www.ixinwei.com/news.aspx?typeid2=31"
+      }, 
+      {
+        "name": "动漫",
+        "link": "http://www.ixinwei.com/news.aspx?typeid2=32"
+      },
+        {
+        "name": "综艺",
+        "link": "http://www.ixinwei.com/news.aspx?typeid2=33"
+      },
+         {
+        "name": "音乐",
+        "link": "http://www.ixinwei.com/news.aspx?typeid2=34"
+      },
+
+        {
+        "name": "明星",
+        "link": "http://www.ixinwei.com/news.aspx?typeid2=35"
+      },
+        {
+        "name": "社会热点",
+        "link": "http://www.ixinwei.com/news.aspx?typeid2=64"
+      },
+
+        {
+        "name": "未解之谜",
+        "link": "http://www.ixinwei.com/news.aspx?typeid2=55"
+      },
+
+        {
+        "name": "奇闻趣事",
+        "link": "http://www.ixinwei.com/news.aspx?typeid2=54"
+      },
+
+        {
+        "name": "灵异事件",
+        "link": "http://www.ixinwei.com/news.aspx?typeid2=53"
+      },
+
+        {
+        "name": "幽默搞笑",
+        "link": "http://www.ixinwei.com/news.aspx?typeid2=52"
+      },
+
+        {
+        "name": "职场指南",
+        "link": "http://www.ixinwei.com/news.aspx?typeid2=29"
+      },
+
+        {
+        "name": "白领读本",
+        "link": "http://www.ixinwei.com/news.aspx?typeid2=28"
+      },
+        {
+        "name": "HR顾问",
+        "link": "http://www.ixinwei.com/news.aspx?typeid2=27"
+      },
+
+        {
+        "name": "恋爱宝典",
+        "link": "http://www.ixinwei.com/news.aspx?typeid2=26"
+      },
+
+        {
+        "name": "两性健康",
+        "link": "http://www.ixinwei.com/news.aspx?typeid2=57"
+      },
+        {
+        "name": "男性健康",
+        "link": "http://www.ixinwei.com/news.aspx?typeid2=8"
+      },
+
+        {
+        "name": "健康养生",
+        "link": "http://www.ixinwei.com/news.aspx?typeid2=6"
+      },
+
+        {
+        "name": "营养美食",
+        "link": "http://www.ixinwei.com/news.aspx?typeid2=5"
+      }
+    ],
+    "list": "#ddl_list > tbody > tr > td > table > tbody",
+    "page": {
+      "index": 1,
+      "limit": 50,
+      "begin": "",
+      "next": "&page=${index}"
+    }
+  }
+}

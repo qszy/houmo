@@ -1,0 +1,38 @@
+{
+  "name": "雅尔文",
+  "version": 100,
+  "category": 1, 
+  "url": "https://www.yawen365.com",
+  "charset": "utf-8",
+
+  "metadata": {
+    "name": ["span.n2 > a"],  
+    "author": ["span.a2 > a"], 
+
+    "cover": ["div.cover > img@attr->src"], 
+    "summary": ["article.info > p.desc"], 
+    "category": ["span.nt"],
+    "status": [],  
+    "update": [],  
+    "lastChapter": ["span.c2 > a"], 
+
+    "link": ["span.n2 > a@attr->href"], 
+    "catalog": ["div.operate > a:nth-child(3)@attr->href"]   
+  },
+  "catalog": {
+    "list": "ul.mulu > li", 
+    "orderBy": 0, 
+    "chapter": {
+      "name": "a",  
+      "link": "a@attr->href"  
+    }
+  },
+  "content": {
+    "text": "div.content"  
+  },
+
+  "search": {
+    "link": "https://www.yawen365.com/search.htm?keyword=${key}",   
+    "list": "section.lastest > ul > li"  
+  }
+}

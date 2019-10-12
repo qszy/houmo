@@ -1,0 +1,14 @@
+{
+  "name": "书源修复",
+  "summary": "暂时挂在这里，原书源更新后删除",
+  "list": [
+    {
+      "name": "亲小说",
+      "url": "https://www.qinxiaoshuo.com",
+      "category": 2,
+      "rank": 2,
+      "auth": false,
+      "version": 104
+    }
+  ]
+}

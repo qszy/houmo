@@ -1,0 +1,37 @@
+{
+  "name": "灵域",
+  "version": 100,
+  "category": 1,
+  "url": "https://m.lingyutxt.com",
+  "charset": "utf-8",
+  "metadata": {
+    "name": [" a"], 
+    "author": ["span.s2"], 
+    "cover": ["div#thumb > img@attr->src"],
+    "summary": ["div.synopsisArea > p.review"], 
+    "category": [],
+    "status": [], 
+    "update": [], 
+    "lastChapter": ["p:nth-child(2) > a"],
+    "link": ["a@attr->href"], 
+    "catalog": ["p.btn > a:nth-child(1)@attr->href"] 
+  },
+  "catalog": {
+    "list": "div#chapterlist > p",
+    "orderBy": 0,
+    "chapter": {
+      "name": "a", 
+      "link": "a@attr->href" 
+    }
+  },
+  "content": {
+    "text": "div#chaptercontent",
+       "page": {
+    "next": "a#pt_next@attr->href"
+    }
+  },
+  "search": {
+    "link": "https://m.lingyutxt.com/SearchBook.php?keyword=${key}",
+    "list": "div.slide-item > div" 
+  }
+}

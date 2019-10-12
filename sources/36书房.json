@@ -1,0 +1,51 @@
+{
+  "name": "36书房",
+  "version": 100,
+  "category": 1,  
+  "url": "https://www.36sfw.com",
+  "charset": "utf-8",
+  "metadata": {
+    "name": ["span.s2 > a"], 
+    "author": ["span.s4 > a"],  
+    "cover": ["div#fmimg > img@attr->src"], 
+    "summary": ["div#intro"],  
+    "category": [],
+    "status": [], 
+    "update": ["span.s6"], 
+    "lastChapter": ["span.s3 > a@attr->title"],
+    "link": ["span.s2 > a@attr->href"], 
+    "catalog": []  
+  },
+  "catalog": {
+    "list": "div#list > dl > dd", 
+    "orderBy": 1, 
+    "chapter": {
+      "name": "a",  
+      "link": "a@attr->href" 
+    }
+  },
+  "content": {
+    "text": "div#content" 
+  },
+  "search": {
+    "link": "https://www.36sfw.com/index.php?s=/web/index/search&name=${key}&submit=搜索",
+    "list": "div.novelslist2 > ul > li"   
+  },
+    "rank": {
+    "link": [
+		  { "name": "玄幻奇幻", "link": "https://www.36sfw.com/xuanhuan/" },
+		  { "name": "武侠仙侠", "link": "https://www.36sfw.com/wuxia/" },
+		  { "name": "都市言情", "link": "https://www.36sfw.com/dushi/" },
+		  { "name": "历史军事", "link": "https://www.36sfw.com/lishi/" },
+		  { "name": "游戏竞技", "link": "https://www.36sfw.com/youxi/" },
+		  { "name": "科幻灵异", "link": "https://www.36sfw.com/kehuan/" },
+		  { "name": "其它类型", "link": "https://www.36sfw.com/qita/" }
+    ],
+    "list": ".l > ul > li",
+    "page": {
+      "index": 1,
+      "limit": 1,
+      "begin": "1.html",
+      "next": "${index}.html"
+    }
+}}

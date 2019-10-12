@@ -1,0 +1,34 @@
+{
+  "name": "悦读吧",
+  "version": 100,
+  "category": 1, 
+  "url": "http://www.yued8.cn",
+  "charset": "gbk",
+  "metadata": {
+    "name": ["td:nth-child(1) > a"], 
+    "author": ["td:nth-child(3)"],  
+    "cover": ["div.bookk-info > a > img@attr->src"],
+    "summary": ["div.info > p.con"], 
+    "category": [], 
+    "status": [], 
+    "update": [], 
+    "lastChapter": ["td:nth-child(2) > a"], 
+    "link": ["td:nth-child(1) > a@attr->href"], 
+    "catalog": ["div.op > a.readnow@attr->href"]  
+  },
+  "catalog": {
+    "list": "div.list > ul > li", 
+    "orderBy": 0,  
+    "chapter": {
+      "name": "a",  
+      "link": "a@attr->href"  
+    }
+  },
+  "content": {
+    "text": "div#booktext" 
+  },
+  "search": {
+    "link": "http://www.yued8.cn/modules/article/search.php?searchkey=${key}",  
+    "list": "table.grid > tbody > tr"  
+  }
+}

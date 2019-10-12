@@ -1,0 +1,34 @@
+{
+  "name": "69书吧",
+  "version": 100,
+  "category": 1, 
+  "url": "https://www.69shuba.cc",
+  "charset": "gbk",
+  "metadata": {
+    "name": ["td:nth-child(1) > a"],
+    "author": ["td:nth-child(3)"], 
+    "cover": ["div.pic > img@attr->src"],  
+    "summary": ["div.bookinfo_intro"],  
+    "category": [ ], 
+    "status": [], 
+    "update": [], 
+    "lastChapter": ["td:nth-child(2) > a"], 
+    "link": ["td:nth-child(1) > a@attr->href"],
+    "catalog": []  
+  },
+  "catalog": {
+    "list": "ul.chapterlist > li",  
+    "orderBy": 0,  
+    "chapter": {
+      "name": "a",  
+      "link": "a@attr->href"   
+    }
+  },
+  "content": {
+    "text": "div#htmlContent" 
+  },
+  "search": {
+    "link": "https://www.69shuba.cc/modules/article/search.php?searchkey=${key}",  
+    "list": "table > tbody > tr"  
+  }
+}

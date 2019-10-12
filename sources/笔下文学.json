@@ -1,0 +1,34 @@
+{
+  "name": "笔下文学",
+  "version": 100,
+  "category": 1,
+  "url": "https://sou.xanbhx.com",
+  "charset": "utf-8",
+  "metadata": {
+    "name": ["span.s2 > a"],
+    "author": ["span.s4"],  
+    "cover": ["div#fmimg > img@attr->src"], 
+    "summary": ["div#intro"], 
+    "category": ["span.s1"], 
+    "status": ["span.s7"],   
+    "update": ["span.s6"], 
+    "lastChapter": ["span.s3 > a"],  
+    "link": ["span.s2 > a@attr->href"], 
+    "catalog": []  
+  },
+  "catalog": {
+    "list": "div#list > dl > dd", 
+    "orderBy": 1, 
+    "chapter": {
+      "name": "a",  
+      "link": "a@attr->href" 
+    }
+  },
+  "content": {
+    "text": "div#content" 
+  },
+  "search": {
+    "link": "https://sou.xanbhx.com/search?siteid=bixiaorg&q=${key}",
+    "list": "div.search-list > ul > li"
+  }
+}

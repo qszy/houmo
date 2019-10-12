@@ -1,0 +1,66 @@
+{
+  "name": "排行榜书单",
+  "version": 100,
+  "category": 4,
+  "url": "https://www.phb123.com",
+  "charset": "utf-8",
+  "metadata": {
+    "name": [".tit > a"],
+    "author": [],
+    "cover": [".img > a > img@attr->src"],
+    "summary": ["p"],
+    "category": [".tag"],
+    "status": [".time"],
+    "link": [".tit > a@attr->href"]
+  },
+  "catalog": {
+    "list": ".detail-content",
+    "orderBy": 0,
+    "chapter": {
+      "name": "h1",
+      "link": ".detail-info > a@attr->href"
+    }
+  },
+  "content": {
+    "text": ".article-body"
+  },
+  "rank": {
+    "link": [
+        {
+        "name": "明星",
+        "link": "https://www.phb123.com/yule/star"
+      },
+        {
+        "name": "音乐",
+        "link": "https://www.phb123.com/yule/music"
+      },
+        {
+        "name": "电影",
+        "link": "https://www.phb123.com/yule/dianying"
+      },
+        {
+        "name": "电视剧",
+        "link": "https://www.phb123.com/yule/dsj"
+      },
+        {
+        "name": "综艺",
+        "link": "https://www.phb123.com/yule/zongyi"
+      },
+        {
+        "name": "动漫",
+        "link": "https://www.phb123.com/yule/dm"
+      },
+        {
+        "name": "书籍",
+        "link": "https://www.phb123.com/shenghuo/shuji"
+      }
+    ],
+    "list": ".block01 > ul > li",
+    "page": {
+      "index": 1,
+      "limit": 50,
+      "begin": "",
+      "next": "/list_${index}.html"
+    }
+  }
+}

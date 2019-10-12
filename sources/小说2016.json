@@ -1,0 +1,34 @@
+﻿{
+  "name": "小说2016",
+  "version": 100,
+  "category": 1,
+  "url": "https://www.xiaoshuo2016.com",
+  "charset": "gbk",
+   "metadata": {
+    "name": ["p.name > a"], 
+    "author": ["p:nth-child(2) > a"], 
+     "cover": ["a > img@attr->src"], 
+    "summary": ["div.clearfix"], 
+    "category": [],
+    "status": [],  
+    "update": [],  
+    "lastChapter": [], 
+     "link": ["p.name > a@attr->href"], 
+    "catalog": []  
+  },
+  "catalog": {
+    "list": "div.cate-List > ul > li",  
+    "orderBy": 2, 
+    "chapter": {
+      "name": "a", 
+      "link": "a@attr->href"  
+    }
+  },
+  "content": {
+    "text": "div.articleDiv"
+  },
+   "search": {
+    "link": "https://www.xiaoshuo2016.com/modules/article/search.php?searchkey=${key}&submit=", 
+    "list": "ul.bd > li"  
+  }
+} 

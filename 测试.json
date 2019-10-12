@@ -1,0 +1,39 @@
+{
+  "name": "测试",
+  "summary": "私人",
+  "list": [
+            {
+      "name": "私人使用",
+      "url": "zxw",
+      "category": 4,
+      "rank": 1,
+      "auth": false,
+      "version": 100
+    },
+
+         {
+      "name": "广知网（下一页）",
+      "url": "https://www.gz2010.cn",
+      "category": 4,
+      "rank": 6,
+      "auth": false,
+      "version": 100
+    },
+             {
+      "name": "侠客网",
+      "url": "http://xkzzz.com",
+      "category": 4,
+      "rank": 6,
+      "auth": false,
+      "version": 100
+    },
+         {
+      "name": "快读书单（内容下一页）",
+      "url": "https://www.phb123.com",
+      "category": 4,
+      "rank": 6,
+      "auth": false,
+      "version": 100
+    }
+  ]
+}

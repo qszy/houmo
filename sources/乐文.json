@@ -1,0 +1,35 @@
+{
+  "name": "乐文",
+  "version": 100,
+  "category": 1,
+  "url": "https://www.lewenn.com",
+  "charset": "utf-8",
+  "metadata": {
+    "name": ["div.info > div.title > h2 > a"], 
+    "author": ["div.info > div.title > span"], 
+    "cover": ["div.pic > a > img@attr->src"],  
+    "summary": ["div.info > div.intro"],
+    "category": [],  
+    "status": [],  
+    "update": [],   
+    "lastChapter": ["div.info > div.sys > li > a"],  
+
+    "link": ["div.info > div.title > h2 > a@attr->href"], 
+    "catalog": [] 
+  },
+  "catalog": {
+    "list": "div#chapterlist > ul > li",
+    "orderBy": 0, 
+    "chapter": {
+      "name": "a",
+      "link": "a@attr->href" 
+    }
+  },
+  "content": {
+    "text": "div#content" 
+  },
+  "search": {
+    "link": "https://www.lewenn.com/searchbook.php?keyword=${key}&page=searchPage", 
+    "list": "div#alist > div"  
+  }
+}
