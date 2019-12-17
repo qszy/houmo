@@ -2,7 +2,7 @@
   "name": "乐文小说网",
   "version": 100,
   "category": 1, 
-  "url": "https://www.lewenxiaoshuo.com",
+  "url": "https://www.lewxs.com",
   "charset": "gbk",
 
   "metadata": {
@@ -32,7 +32,7 @@
   },
 
   "search": {
-    "link": "https://m.lewenxiaoshuo.com/novel.php?action=search&searchkey=${key}&searchtype=articlename",  
+    "link": "https://www.lewxs.com/novel.php?action=search&searchkey=${key}&searchtype=articlename",  
     "list": "div.waps_r > div.waps_one"  
   }
 }
