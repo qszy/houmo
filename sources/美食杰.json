@@ -6,7 +6,7 @@
   "charset": "utf-8",
 
  "metadata": {
-    "name": ["div.infoa > a"],
+    "name": ["div.infoa"],
     "author": ["a.tongji_author"],
     "cover": ["a.img > img@attr->src"],
     "summary": [""], 
@@ -33,6 +33,6 @@
 
   "search": {
     "link": "https://so.meishi.cc/?q=${key}",
-    "list": "div.search2015_cpitem_w > div"
+    "list": "div.search2015_cpitem"
   }
 }
