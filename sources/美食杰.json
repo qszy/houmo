@@ -30,8 +30,7 @@
   "content": {
     "text": "div.main"
   },
-  "filter":["@ul.pathstlye1","@div.cp_comment"."@div.cp_body_right"]
-
+  "filter":["@ul.pathstlye1","@div.cp_comment","@div.cp_body_right"]
   "search": {
     "link": "https://so.meishi.cc/?q=${key}",
     "list": "div.search2015_cpitem_w > div.search2015_cpitem"
