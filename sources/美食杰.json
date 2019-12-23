@@ -1,7 +1,7 @@
 {
   "name": "美食杰",
   "version": 100,
-  "category": 1,
+  "category": 3,
   "url": "https://so.meishi.cc",
   "charset": "utf-8",
 
@@ -33,6 +33,6 @@
 
   "search": {
     "link": "https://so.meishi.cc/?q=${key}",
-    "list": "div.search2015_cpitem"
+    "list": "div.search2015_cpitem_w > div.search2015_cpitem"
   }
 }
