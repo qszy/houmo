@@ -9,7 +9,7 @@
     "name": ["div.info > a"],
     "author": ["a.tongji_author"],
     "cover": ["div.search2015_cpitem > a.img > img@attr->src"],
-    "summary": ["ul.clearfix > li"], 
+    "summary": ["div.info2"], 
     "category": [],
     "status": [], 
     "update": ["div.info > strong > em"], 
