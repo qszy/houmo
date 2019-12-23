@@ -10,6 +10,7 @@
     "author": ["a.tongji_author"],
     "cover": ["a.img > img@attr->src"],
     "summary": ["div.cp_main_info_w"], 
+   "filter": ["@div.erweima_t", "@span.favbtns"],
     "category": [""],
     "status": [], 
     "update": [], 
@@ -29,7 +30,7 @@
 
   "content": {
     "text": "div.main",
-  "filter":["@ul.pathstlye1","@div.cp_comment","@div.cp_body_right"]
+  "filter":["@ul.pathstlye1","@div.cp_comment","@div.cp_body_right","@div.erweima_t","@span.favbtns"]
   },
   "search": {
     "link": "https://so.meishi.cc/?q=${key}",
