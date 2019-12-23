@@ -9,7 +9,7 @@
     "name": ["div.info > a"],
     "author": ["a.tongji_author"],
     "cover": ["a.img > img@attr->src"],
-    "summary": [""], 
+    "summary": ["div.cp_main_info_w"], 
     "category": [""],
     "status": [], 
     "update": [], 
@@ -28,8 +28,9 @@
   },
 
   "content": {
-    "text": "div.main" 
+    "text": "div.main"
   },
+  "filter":["@ul.pathstlye1","@div.cp_comment"."@div.cp_body_right"]
 
   "search": {
     "link": "https://so.meishi.cc/?q=${key}",
