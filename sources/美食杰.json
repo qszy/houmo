@@ -1,0 +1,39 @@
+﻿{
+  "name": "美食杰",
+  "version": 100,
+  "category": 1,
+  "url": "https://so.meishi.cc",
+  "charset": "utf-8",
+
+ "metadata": {
+    "name": ["div.infoa > a"],
+    "author": ["a.tongji_author"],
+
+    "cover": ["a.img > img@attr->src"],
+    "summary": [""], 
+    "category": [""],
+    "status": [], 
+    "update": [], 
+    "lastChapter": [""], 
+    "link": ["div.infoa > a@attr->href"], 
+    "catalog": []  
+  },
+
+  "catalog": {
+    "list": "h1.title > a",
+    "orderBy": 0,
+    "chapter": {
+      "name": "a", 
+      "link": "a@attr->href"  
+    }
+  },
+
+  "content": {
+    "text": "div.main" 
+  },
+
+  "search": {
+    "link": "https://so.meishi.cc/?q=${key}",
+    "list": "div.search2015_cpitem_w > div"
+  }
+}
