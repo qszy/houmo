@@ -1,7 +1,15 @@
 {
 "name": "张小晚",
-"summary": "谈对象影响学习。学习最重要。—— 培根",
-"list": [  
+"summary": "新增：美食杰",
+"list": [
+                    {
+      "name": "美食杰",
+      "url": "https://so.meishi.cc",
+      "category": 3,
+      "rank": 0,
+      "auth": false,
+      "version": 100
+    },
         {
       "name": "飘天中文网搜索间隔30s",
       "url": "https://www.piaotianzw.com",
