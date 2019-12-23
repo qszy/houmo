@@ -1,7 +1,15 @@
 {
   "name": "测试",
-  "summary": "私人",
+  "summary": "*",
   "list": [
+            {
+      "name": "美食杰",
+      "url": "https://so.meishi.cc",
+      "category": 4,
+      "rank": 0,
+      "auth": false,
+      "version": 100
+    },
             {
       "name": "私人使用",
       "url": "zxw",
