@@ -10,9 +10,9 @@
     "author": ["a.tongji_author"],
     "cover": ["div.search2015_cpitem > a.img > img@attr->src"],
     "summary": ["div.info2"], 
-    "category": ["div.info > strong > em"],
+    "category": [],
     "status": [], 
-    "update": ["div.info > strong"], 
+    "update": ["div.info > strong > em"], 
     "lastChapter": ["dl.yj_tags"], 
     "link": ["div.info > a@attr->href"], 
     "catalog": []  
@@ -22,7 +22,7 @@
     "list": "div.cp_main_info_w",
     "orderBy": 0,
     "chapter": {
-      "name": "dl.yj_tags clearfix", 
+      "name": "dl.yj_tags", 
       "link": "div.info1 > h1.title > a@attr->href"  
     }
   },
