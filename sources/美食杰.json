@@ -29,7 +29,7 @@
 
   "content": {
     "text": "div.cp_body_left",
-  "filter":["@div.cp_comment","span.authors_copy_right"]
+  "filter":["@div.cp_comment","@span.authors_copy_right"]
   },
   "search": {
     "link": "https://so.meishi.cc/?q=${key}",
