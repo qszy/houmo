@@ -19,11 +19,11 @@
   },
 
   "catalog": {
-    "list": "h1.title > a",
+    "list": "div.cp_main_info_w",
     "orderBy": 0,
     "chapter": {
-      "name": "a", 
-      "link": "a@attr->href"  
+      "name": "dl.yj_tags clearfix", 
+      "link": "div.info1 > h1.title > a@attr->href"  
     }
   },
 
