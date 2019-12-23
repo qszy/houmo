@@ -6,7 +6,7 @@
   "charset": "utf-8",
 
  "metadata": {
-    "name": ["div.infoa"],
+    "name": ["div.info > a"],
     "author": ["a.tongji_author"],
     "cover": ["a.img > img@attr->src"],
     "summary": [""], 
@@ -14,7 +14,7 @@
     "status": [], 
     "update": [], 
     "lastChapter": [""], 
-    "link": ["div.infoa > a@attr->href"], 
+    "link": ["div.info > a@attr->href"], 
     "catalog": []  
   },
 
