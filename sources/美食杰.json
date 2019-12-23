@@ -9,11 +9,10 @@
     "name": ["div.info > a"],
     "author": ["a.tongji_author"],
     "cover": ["div.search2015_cpitem > a.img > img@attr->src"],
-    "summary": ["div.cp_main_info_w"], 
-   "filter": ["@div.info1"],
-    "category": [""],
+    "summary": ["div.info2"], 
+    "category": ["div.info > strong > em"],
     "status": [], 
-    "update": [], 
+    "update": ["div.info > strong"], 
     "lastChapter": ["dl.yj_tags"], 
     "link": ["div.info > a@attr->href"], 
     "catalog": []  
@@ -30,7 +29,7 @@
 
   "content": {
     "text": "div.cp_body_left",
-  "filter":["@div.cp_comment"]
+  "filter":["@div.cp_comment","span.authors_copy_right"]
   },
   "search": {
     "link": "https://so.meishi.cc/?q=${key}",
